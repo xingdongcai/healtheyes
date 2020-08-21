@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/BarChart"
+        android:visible="true"
+
+        android:title="@string/bar_chart" />
+    <item android:id="@+id/LineChart"
+        android:visible="true"
+
+        android:title="@string/line_chart" />
+    <item android:id="@+id/TextChart"
+        android:visible="true"
+
+        android:title="Text Chart" />
+</menu>

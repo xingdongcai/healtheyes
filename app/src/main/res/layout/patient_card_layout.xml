@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:foreground="?selectableItemBackground"
+    card_view:cardBackgroundColor="@android:color/background_light"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="3dp"
+    card_view:contentPadding="4dp"
+    android:focusable="true"
+    android:clickable="true"
+    tools:visibility="visible">
+
+    <RelativeLayout
+        android:layout_width="402dp"
+        android:layout_height="wrap_content"
+
+        android:clickable="false"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/sys_blood_id"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+
+            android:layout_below="@+id/text_sys_id"
+            android:layout_alignParentStart="true"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Systolic"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/patient_tc_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_tc_id"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Cholesterol"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/tc_checkBox_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sys_blood_id"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp" />
+
+        <CheckBox
+            android:id="@+id/bd_checkBox_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_id"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp" />
+
+        <TextView
+            android:id="@+id/dia_blood_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_sys_id"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/sys_blood_id"
+            android:text=" Diastolic"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bp_effiected_tiem_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_sys_id"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/dia_blood_id"
+            android:text="Effected Time"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tc_effected_time_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_tc_id"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/patient_tc_id"
+            android:text="Effected Time"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_sys_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_id"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Systolic"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_tc_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sys_blood_id"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Total Cholesterol"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/text_dia_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_id"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@+id/text_sys_id"
+            android:text="Diastolic"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

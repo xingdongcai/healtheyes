@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Medical System</string>
+    <string name="tab_text_1">All</string>
+    <string name="tab_text_2">Select</string>
+    <string name="bar_chart">Bar Chart</string>
+    <string name="line_chart">Line Chart</string>
+</resources>

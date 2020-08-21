@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/systolic_patient_info_id"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/systolic_patient_name_id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Patient Name"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/systolic_patient_bp_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Patient Value"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+</LinearLayout>
