@@ -6,10 +6,6 @@ FIT3077 project repository
 Xingdong Cai (29211530)<br>
 Jiajun Liu (29025249)
 
-Class diagram Link: https://app.lucidchart.com/invitations/accept/291d11df-5ff2-4262-95a4-c6f0a7e530e3 (file with rationale attached in git as well) <br>
-Assigment 2 Demostration Video Link: https://drive.google.com/file/d/1TfibA2rVCF_2Tqod44HgzshTPeOUFht-/view?usp=sharing (Monash account accessible)<br>
-Assigment 3 Demostration Video Link: https://drive.google.com/file/d/1a_sL4qNnJqRBjyd4EwkA60ok-nuAEYhW/view?usp=sharing<br>
-
 # **Getting Started**
 1. Use Android Studio to run the application<br>
 2. Recommend test it on Pixel API28 emulator to avoid unpredictable layout error<br>
