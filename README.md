@@ -3,8 +3,8 @@
 FIT3077 project repository
 
 **Team members:**<br>
-Xingdong Cai (29211530)<br>
-Jiajun Liu (29025249)
+Xingdong Cai<br>
+Jiajun Liu
 
 # **Getting Started**
 1. Use Android Studio to run the application<br>
