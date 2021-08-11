@@ -1,6 +1,6 @@
-# project
+# HealthEyes
 
-FIT3077 project repository
+HealthEyes project repository
 
 **Team members:**<br>
 Xingdong Cai<br>
